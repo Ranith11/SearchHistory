@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.each-history {
+  display: flex;
+  width: 70%;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.time-accessed {
+  color: #475569;
+  font-size: 13px;
+}
+
+.history-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.history-logo {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.history-title {
+  color: black;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.history-url {
+  color: #64748b;
+  font-size: 10px;
+}
+
+.delete-icon {
+  height: 15px;
+  width: 15px;
+}
